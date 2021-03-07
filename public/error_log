@@ -1,0 +1,2 @@
+[31-Oct-2020 00:04:32 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bookexpr/public_html/storage/framework/views/90bc3454d3c76466feffce9e3b9aeefb5c58e2c5.php on line 1
+[31-Oct-2020 00:05:34 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bookexpr/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 1015

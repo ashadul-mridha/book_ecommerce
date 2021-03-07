@@ -1,0 +1,133 @@
+
+.bx_login {
+    padding-bottom: 100px;
+}
+.bx_login .bx_section_headding > h3{
+    padding-bottom: 40px;
+}
+.bx_login_form_fields .bx_login_label {
+    color: #1d2025;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.bx_login_form_fields .bx_login_field {
+    color: #838d9c;
+    background: #f8f8f8;
+    border: 1px solid ;
+    border-color: rgba(131, 141, 156, 0.161);
+    border-radius: 3px;
+    padding: 0 20px;
+    line-height: 24px;
+    height: 60px;
+}
+.bx_login_form_fields .bx_login_field.is-invalid {
+    border-color: #dc3545;
+}
+
+.bx_login_form_fields .bx_login_field:focus {
+    color: #838d9c;
+    background: #fff;
+    border: 1px solid rgba(131, 141, 156, 0.161);
+    box-shadow: 0px 0px 14px rgba(9, 9, 26, .16);
+}
+
+.bx_login_form_fields .bx_login_remember_forgot {
+    margin-bottom: 50px;
+}
+
+.bx_login_form_fields .form-check-input {
+    margin-top: 0px;
+    border: 1px solid rgba(131, 141, 156, 0.161);
+}
+
+.bx_login_form_fields .form-check-label,
+.bx_login_form_fields .bx_login_forgot_password a {
+    color: #838d9c;
+}
+
+.bx_login_form_fields .form-group:last-child {
+    margin-bottom: 0px;
+}
+
+.bx_login_form_fields .bx_login_btn button {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background: #0100a4;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.bx_login_form_fields .bx_login_btn button:focus,
+.bx_login_form_fields .bx_login_btn button:active,
+.bx_login_form_fields .bx_login_btn button:active:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.bx_login_form_content .bx_login_registration {
+    color: #838d9c;
+    line-height: 24px;
+}
+.bx_login_form_content .bx_login_registration a{
+    color: #0100a4;
+}
+.bx_login .bx_login_image_content {
+    width: 100%;
+    height: 99%;
+    position: relative;
+    margin: 0 auto;
+    border-radius:5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 14px rgba(9, 9, 26, .16);
+}
+.bx_login .bx_login_image_content::after {
+    content: "";
+    padding-bottom: 100%;
+}
+.bx_login .bx_login_image_content .bx_login_image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background: url("../image/book/book.jpg"); */
+    background-position: center center;
+    background-size: cover;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bx_login {
+        padding-bottom: 70px;
+    }
+    .bx_registration .bx_section_headding > h3{
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bx_login {
+        padding-bottom: 50px;
+    }
+    .bx_registration .bx_section_headding > h3{
+        padding-bottom: 30px;
+    }
+    .bx_login_form_fields .bx_login_field {
+        height: 50px;
+    }
+
+
+    .bx_login_form_fields .bx_login_remember_forgot {
+        margin-bottom: 30px;
+    }
+    .bx_login .bx_login_image_content {
+        height: 280px;
+    }
+
+}
+

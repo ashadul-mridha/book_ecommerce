@@ -1,0 +1,247 @@
+.bx_book_my_profile_content {
+    padding: 30px 20px;
+    background: #f9f9f9;
+}
+
+.bx_book_my_profile_content .user_info {
+
+    background: #fff;
+    box-shadow: 0px 3px 6px 0px rgba(54, 64, 77, 0.1);
+    border-radius: 3px;
+    padding: 20px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+}
+
+.bx_book_my_profile_content .bx_sidebar {
+    margin-top: 30px;
+    background: #fff;
+    box-shadow: 0px 3px 6px 0px rgba(54, 64, 77, 0.1);
+}
+
+.bx_book_my_profile_content .bx_sidebar .nav-link {
+    color: #838d9c;
+    background: #fff;
+    padding: 15px 20px;
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px dotted #cdcdcd;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.bx_book_my_profile_content .bx_sidebar .nav-link.active {
+    color: #0100a4;
+
+    background: -webkit-linear-gradient(left, #efefff 0%, #ffffff 100%);
+    background: linear-gradient(to right, #efefff 0%, #ffffff 100%);
+}
+
+.bx_book_my_profile_content .bx_book_my_profile_info {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px 0px rgba(54, 64, 77, 0.1);
+}
+
+.bx_book_my_profile_content .bx_info_heading {
+    padding-bottom: 20px;
+}
+
+.bx_book_my_profile_content .bx_info_heading:not(:first-child) {
+    padding-top: 20px;
+}
+
+.bx_book_my_profile_content .bx_info_header {
+    color: #1d2025;
+}
+
+.bx_book_my_profile_content .bx_info_change {
+    color: #0100a4;
+    cursor: pointer;
+}
+
+.bx_book_my_profile_content .bx_info_field {
+    color: #1d2025;
+    background: #f8f8f8;
+    border: 1px solid rgba(131, 141, 156, 0.161);
+    border-radius: 3px;
+    padding: 20px;
+
+}
+
+.bx_book_my_profile_content .bx_info_field:focus {
+    background: #fff;
+    box-shadow: 0px 0px 6px 1px rgb(221, 222, 223);
+}
+
+/* user order */
+.bx_book_my_profile_content .bx_booK_user_btn {
+    background-color: #FFC107;
+    color: #fff;
+    margin-left: -15px;
+    padding: 7px;
+}
+
+.bx_book_my_profile_content .bx_user_order_field {
+    border: 1px solid rgba(131, 141, 156, 0.161);
+}
+
+.bx_book_my_profile_content .bx_user_order_field:focus {
+    border: 1px solid rgba(100, 131, 177, 0.161);
+    box-shadow: none;
+}
+
+.bx_book_my_profile_content .bx_user_order_list {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px 0px rgba(54, 64, 77, 0.1);
+}
+
+.bx_book_my_profile_content .bx_user_order_wrapper {
+    border-bottom: 1px solid #838d9c;
+}
+
+.bx_book_my_profile_content .bx_user_order_meta {
+    margin-top: 10px;
+}
+
+.bx_book_my_profile_content .status {
+    margin: 25px 0 30px;
+}
+
+.bx_book_my_profile_content .bx_user_order_content {
+    margin-top: 20px;
+}
+
+.bx_book_my_profile_content .bx_user_order_book_img {
+    position: relative;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.bx_book_my_profile_content .bx_user_order_book_title {
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.bx_book_my_profile_content .origila_price {
+    color: #838d9c;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+#bx_book_order_id,
+#bx_book_order_item,
+#bx_book_order_payable {
+    color: #0100a4;
+}
+.bx_book_order_submit_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: #fff;
+    background: #ffc107;
+    border-radius: 3px;
+    border: none;
+    margin-top: 15px;
+}
+.bx_book_order_submit_btn:hover {
+    color: #fff;
+}
+/* user wishlist */
+.bx_book_my_profile_content .user_wishlist_cart {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #0100a4;
+    border-radius: 3px;
+    border: none;
+}
+
+.bx_book_my_profile_content .bx_book_selling {
+    color: #ffc107;
+    display: block;
+}
+
+.bx_book_my_profile_content .bx_book_original {
+    padding-top: 10px;
+    display: block;
+    color: #838d9c;
+    text-decoration: line-through;
+}
+
+.bx_book_my_profile_content .user_wishlist_remove {
+    color: #838d9c;
+    cursor: pointer;
+}
+
+.bx_book_my_profile_content .bx_user_list_item_title {
+    color: #132339;
+}
+
+.bx_book_my_profile_content .bx_user_wishlist_item {
+    background: #f9f9f9;
+}
+
+/* paginate */
+
+.bx_book_my_profile_content .bx_book_pagination_content {
+    padding-top: 40px;
+}
+
+.bx_book_my_profile_content .bx_book_pagination_content .page-item {
+    padding: 0px 5px;
+}
+
+.bx_book_my_profile_content .bx_book_pagination_content .page-item:first-child {
+    padding-left: 0px;
+}
+
+.bx_book_my_profile_content .bx_book_pagination_content .page-link {
+    width: 50px;
+    height: 50px;
+    color: #777b82;
+    background: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #edeef0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s linear;
+}
+
+.bx_book_my_profile_content .bx_book_pagination_content .page-item.active .page-link,
+.bx_book_my_profile_content .bx_book_pagination_content .page-item:hover .page-link {
+    color: #fff;
+    background: #0100a4;
+    border-color: #0100a4;
+    outline: none;
+    box-shadow: none;
+    transition: all .3s linear;
+}
+
+.bx_book_my_profile_content .bx_book_pagination_content .page-link i {
+    font-size: 22px;
+}
+
+/* review */
+.bx_book_my_profile_content .bx_user_list_item ul li i {
+    color: #ffc107;
+    font-size: 20px;
+}
+
+.bx_book_my_profile_content .bx_user_list_item_title a {
+    color: #0100a4;
+}

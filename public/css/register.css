@@ -1,0 +1,94 @@
+
+.bx_registration {
+    padding-bottom: 100px;
+}
+.bx_registration .bx_section_headding > h3{
+    padding-bottom: 40px;
+}
+.bx_registration_form_fields .bx_registration_label {
+    color: #1d2025;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.bx_registration_form_fields .bx_registration_field {
+    color: #838d9c;
+    background: #f8f8f8;
+    border: 1px solid rgba(131, 141, 156, 0.161);
+    border-radius: 3px;
+    padding: 0 20px;
+    line-height: 24px;
+    height: 60px;
+}
+.bx_registration_form_fields .bx_registration_field.is-invalid {
+    border-color: #dc3545;
+}
+.bx_registration_form_fields .bx_registration_field:focus {
+    color: #838d9c;
+    background: #fff;
+    border: 1px solid rgba(131, 141, 156, 0.161);
+    box-shadow: 0px 0px 14px rgba(9, 9, 26, .16);
+}
+
+.bx_registration_form_fields .form-group:last-child {
+    margin-bottom: 0px;
+}
+
+.bx_registration_form_fields .bx_registration_btn button {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background: #0100a4;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.bx_registration_form_fields .bx_registration_btn button:focus,
+.bx_registration_form_fields .bx_registration_btn button:active,
+.bx_registration_form_fields .bx_registration_btn button:active:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.bx_registration_form_content .bx_registration_registration {
+    color: #838d9c;
+    line-height: 24px;
+}
+.bx_registration_form_content .bx_registration_registration a{
+    color: #0100a4;
+}
+.bx_registration .bx_registration_text p{
+color: #838d9c;
+line-height: 24px;
+}
+.bx_registration .bx_registration_text p:last-child{
+padding-top: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bx_registration {
+        padding-bottom: 70px;
+    }
+    .bx_registration .bx_section_headding > h3{
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bx_registration {
+        padding-bottom: 50px;
+    }
+    .bx_registration_form_fields .bx_registration_field {
+        height: 50px;
+    }
+    .bx_registration .bx_section_headding > h3{
+        padding-bottom: 30px;
+    }
+    .bx_registration .bx_registration_text p:last-child{
+        padding-top: 20px;
+        }
+
+}

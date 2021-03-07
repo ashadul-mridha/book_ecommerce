@@ -1,0 +1,46 @@
+.bx_book_order_submit_page {
+    background: #f9f9f9;
+    padding: 100px 0px;
+}
+
+.bx_book_order_submit_page .bx_book_order_message {
+    font-size: 30px;
+    line-height: 40px;
+    color: #28a745;
+    padding-bottom: 30px;
+}
+
+.bx_book_order_submit_page .bx_book_order_track_text p{
+    color: #1d2025;
+    font-size: 28px;
+}
+.bx_book_order_submit_page .bx_book_order_track_text a {
+    color: #0100a4;
+    font-size: 28px;
+    font-weight: 500;
+}
+.bx_book_order_submit_page .bx_book_order_home_button {
+    padding: 30px 0px ;
+}
+.bx_book_order_submit_page .bx_book_order_home_button .bx_book_home_btn{
+    color: #fff;
+    background: #0100a4;
+    border: 1px solid #0100a4;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 12px 20px;
+    transition: all .3s ease-in-out;
+    text-transform: capitalize;
+}
+.bx_book_order_submit_page .bx_book_order_home_button .bx_book_home_btn:hover{
+    color: #0100a4;
+    background: #fff;
+    border: 1px solid #0100a4;
+    transition: all .3s ease-in-out;
+}
+.bx_book_order_submit_page  .payment-btn{
+    color: #fff;
+    background: #E3106E;
+    padding: 8px 20px;
+    margin: 50px 0px;
+}

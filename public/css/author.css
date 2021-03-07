@@ -1,0 +1,194 @@
+.bx_author_search_area .bx_author_search_headding {
+    font-size: 20px;
+    font-weight: 300;
+    color: #132339;
+    margin: 0;
+    line-height: 30px;
+}
+
+.bx_author_search_area {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background: #f9f9f9;
+
+}
+
+.bx_author_search_area .form-control {
+    color: #0100a4;
+    background-color: #fff;
+    border-color: #e7e9ec;
+    border-radius: 0px;
+    padding-left: 30px;
+}
+
+.bx_author_search_area .form-control:focus {
+    color: #838d9c;
+    background: #fff;
+    border: 1px solid rgba(131, 141, 156, 0.161);
+}
+
+.bx_author_search_area .form-control::placeholder {
+    color: #838d9c;
+}
+
+.bx_author_search_area .input-group-text {
+    color: #838d9c;
+    background-color: #e7e9ec;
+    font-size: 16px;
+    padding: 0px 25px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+}
+
+.bx_author_search_area .bx_author_search_results {
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 3050;
+    box-shadow: 0px 3px 6px 0px rgba(54, 64, 77, 0.1);
+    max-height: 300px;
+    overflow-y: scroll;
+    border-radius: 0 0 3px 3px;
+    display: none;
+}
+
+.bx_author_search_area .bx_author_search_results.active {
+    display: block;
+}
+
+.bx_author_search_area .bx_author_search_results .bx_book_wrapper {
+    padding: 15px;
+    color: #1d2025;
+}
+
+.bx_author_search_area .bx_author_search_results .bx_book_wrapper:hover {
+    padding: 15px;
+    color: #0100a4;
+    background: #f9f9f9;
+}
+
+.bx_author_list_section .bx_author_list .bx_author_list_imge {
+    height: 140px;
+    width: 140px;
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-image: initial;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.bx_author_list_section .bx_author_list a:hover .bx_author_list_imge {
+    border-color: #0100a4;
+    transition: all 0.5s ease 0s;
+}
+
+.bx_author_list_section .bx_author_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.bx_author_list_section .bx_author_list .bx_author_list_item {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.bx_author_list_section .bx_author_list .bx_author_list_item .author_name {
+    color: #717985;
+    padding: 10px 0px 10px 0px;
+}
+
+.bx_author_list_section .bx_author_list_item .bx_author_list_item_hover {
+    position: absolute;
+    left: 0px;
+    display: none;
+    text-align: left;
+    bottom: 120px;
+    background-color: rgb(249, 249, 249);
+    max-width: 100%;
+    width: 100%;
+    box-shadow: rgba(158, 150, 158, 0.7) 0px 0px 4px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    animation: 0.5s ease 0s 1 normal none running display-none-transition;
+}
+
+.bx_author_list_section .bx_author_list_item:hover .bx_author_list_item_hover {
+    display: block;
+    opacity: 1;
+}
+.bx_author_list_section .bx_author_list_item .author_name_hover {
+    color: #717985;
+    padding-bottom: 10px;
+}
+.bx_author_list_section .bx_author_list_item .author_details_hover {
+    color: #838d9c;
+}
+
+
+.bx_author_list_section .bx_book_pagination_content {
+    padding-top: 40px;
+}
+.bx_author_list_section .bx_book_pagination_content .page-item{
+    padding: 0px 5px;
+}
+.bx_author_list_section .bx_book_pagination_content .page-item:first-child{
+    padding-left: 0px;
+}
+.bx_author_list_section .bx_book_pagination_content .page-link{
+    width: 50px;
+    height: 50px;
+    color: #777b82;
+    background: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #edeef0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bx_author_list_section .bx_book_pagination_content .page-item.active .page-link{
+    color: #fff;
+    background: #0100a4;
+    border-color: #0100a4;
+}
+.bx_author_list_section .bx_book_pagination_content .page-link i{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bx_author_list_section .bx_author_list .bx_author_list_item {
+        width: 33.3%;
+    }
+    .bx_author_list_section .bx_author_list {
+        justify-content: center;
+
+    }
+}
+@media (max-width: 768px) {
+    .bx_author_list_section .bx_author_list .bx_author_list_item {
+        width: 50%;
+    }
+    .bx_author_list_section .bx_author_list {
+        justify-content: center;
+
+    }
+}
