@@ -52,12 +52,18 @@
                         <div class="bx_book_info_header bx_pb_30">
                             <h2>{{ $book->title }}</h2>
                             {{-- <p>Category: {{ $category }}</p> --}}
-                            <p>
+                            <div>
                                 Category: 
                                 @foreach ($category as $cat)
                                     <p class="btn btn-sm-primary">{{ $cat->title }}</p>
                                 @endforeach
-                            </p>
+                            </div>
+                            <div>
+                                SubCategory: 
+                                @foreach ($data as $row)
+                                    <p class="btn btn-sm-primary">{{ $row->title }}</p>
+                                @endforeach
+                            </div>
                             <p>By <a href="{{ route('author.details',  $book->author->id) }}">{{ $book->author->name }}</a></p>
                         </div>
                         

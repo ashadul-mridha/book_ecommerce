@@ -243,8 +243,18 @@ class FrontendController extends Controller
                 ->where('books.id',$id)
                 ->select('categories.*')
                 ->get();
-              //  dd($category);
-        return view('frontend.details', compact('book', 'related_books','searchs','all_categories','category'));
+
+        $subcategory = DB::table('book_sub_category')
+                        ->where('book_sub_category.book_id',$id)
+                        ->get();
+
+    //    $subcategory = SubCategory::findorfail('subcategory_id');
+            foreach( $subcategory as $row){
+                $data[] = Subcategory::findorfail($row->sub_category_id);
+            }
+       
+             // dd($data);
+        return view('frontend.details', compact('book', 'related_books','searchs','all_categories','category','data'));
     }
     public function book_grid(Request $request)
     {
